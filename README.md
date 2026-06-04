@@ -25,16 +25,16 @@
 ```
 
 1. **Fund your wallet** with USDC (on Base)
-2. **OpenClaw uses [ClawRouter](https://github.com/BlockRunAI/ClawRouter)** to access 41+ LLMs
+2. **OpenClaw uses [ClawRouter](https://github.com/BlockRunAI/ClawRouter)** to access 55+ LLMs
 3. **Pay-per-request** via x402 micropayments - no API keys, no subscriptions
 4. **Save up to 92%** on inference costs with smart model routing
 5. **[Franklin](https://github.com/BlockRunAI/franklin) — the AI agent with a wallet** — runs marketing campaigns, trading signals, and content generation autonomously
 6. **LLM executes tasks** that generate income
 7. **Profit funds more usage** - creating a self-sustaining money loop
 
-**Get started:** [Franklin](https://github.com/BlockRunAI/franklin) ⭐ | [ClawRouter v0.12.161](https://github.com/BlockRunAI/ClawRouter) ⭐ 6.4k | [BlockRun.ai](https://blockrun.ai)
+**Get started:** [Franklin](https://github.com/BlockRunAI/franklin) ⭐ | [ClawRouter v0.12.200](https://github.com/BlockRunAI/ClawRouter) ⭐ 6.5k | [BlockRun.ai](https://blockrun.ai)
 
-### 🆕 ClawRouter v0.12.161 - Apr 2026
+### 🆕 ClawRouter v0.12.200 - Jun 2026
 
 Latest version with 16-model curated allowlist, image generation, usage reports, and three-strike escalation:
 
@@ -64,7 +64,7 @@ Latest version with 16-model curated allowlist, image generation, usage reports,
 openclaw plugins install @blockrun/clawrouter
 
 # Or via npm
-npm install @blockrun/clawrouter@0.12.161
+npm install @blockrun/clawrouter@0.12.200
 
 # Or standalone
 curl -fsSL https://blockrun.ai/ClawRouter-update | bash
@@ -103,12 +103,13 @@ curl -fsSL https://blockrun.ai/ClawRouter-update | bash
 2. **BlockRun Gateway** — aggregates 55+ LLMs + paid APIs (Exa, DALL-E, future Runway/Suno/CoinGecko) behind a single x402 endpoint.
 3. **Franklin Agent** — the reference client. An AI agent that actually spends money to get things done.
 
-**Two verticals, one wallet:**
+**Three verticals, one wallet:**
 
 | Vertical | What it does |
 |---|---|
-| **Marketing Agent** | Campaigns, content creation, social outreach — autonomously pays for API access, image generation, web search |
+| **Marketing Agent** | Campaigns, social outreach, lead gen — autonomously pays for web search, research APIs, copywriting models |
 | **Trading Agent** | Signals, research, risk analysis — autonomously pays for market data, LLM reasoning, on-chain queries |
+| **Content Agent** | ImageGen, VideoGen, budget-tracked media production — autonomously pays per asset (DALL-E, Flux, future Runway/Suno) |
 
 **Why Franklin belongs in this list:**
 
@@ -776,13 +777,13 @@ Model Context Protocol (MCP) enables AI agents to connect to external tools and 
 
 ### Infrastructure
 
-- [**ClawRouter v0.12.161**](https://github.com/BlockRunAI/ClawRouter) ⭐ 6.4k - Smart LLM router, save up to 92% on inference. 16-model curated allowlist, one USDC wallet. **Features:** Response caching, 4 routing profiles, `/imagegen`, `clawrouter report`, three-strike escalation, `/debug`, tool-calling filter, session persistence, `clawrouter doctor`, multilingual support.
+- [**ClawRouter v0.12.200**](https://github.com/BlockRunAI/ClawRouter) ⭐ 6.5k - Smart LLM router, save up to 92% on inference. 16-model curated allowlist, one USDC wallet. **Features:** Response caching, 4 routing profiles, `/imagegen`, `clawrouter report`, three-strike escalation, `/debug`, tool-calling filter, session persistence, `clawrouter doctor`, multilingual support.
 - [**BlockRun.ai**](https://blockrun.ai) - Pay-per-request AI via x402 micropayments.
 - [**blockrun-mcp**](https://github.com/BlockRunAI/blockrun-mcp) ⭐ 465 - Live data MCP server for AI agents — search, research, markets, crypto, X/Twitter. Pay-per-call via x402 micropayments.
 - [**blockrun-mcp-server**](https://github.com/BlockRunAI/blockrun-mcp-server) - Hosted MCP at `mcp.blockrun.ai` — one URL, any agent, zero install.
 - **BlockRun SDKs** — OpenAI-compatible, pay-per-call USDC, zero rate limits: [Python](https://github.com/BlockRunAI/blockrun-llm) · [TypeScript](https://github.com/BlockRunAI/blockrun-llm-ts) · [Go](https://github.com/BlockRunAI/blockrun-llm-go) · [XRPL/RLUSD](https://github.com/BlockRunAI/blockrun-llm-xrpl)
 
-#### Popular Models on BlockRun (Apr 2026)
+#### Popular Models on BlockRun (Jun 2026)
 
 | Model | Pricing | Best For |
 |-------|---------|----------|
@@ -810,7 +811,7 @@ Model Context Protocol (MCP) enables AI agents to connect to external tools and 
 
 ## Cost Considerations
 
-| Cost | Traditional | With ClawRouter v0.12.161 |
+| Cost | Traditional | With ClawRouter v0.12.200 |
 |------|-------------|----------------------|
 | LLM API tokens | $50 - $500+/mo | $4 - $40+/mo |
 | Hosting | $5 - $50/mo | $5 - $50/mo |
