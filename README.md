@@ -202,6 +202,9 @@ franklin  # launch the agent
 - [**TradingAgents**](https://github.com/TauricResearch/TradingAgents) - Multi-agent trading framework with specialized analyst, researcher, and trader agents.
   - 💰 **Monetize:** Enterprise trading solutions, custom agent development
 
+- [**VARRD**](https://github.com/augiemazza/varrd) ⭐ 24 - Statistical edge discovery engine. Test a trading idea in plain English — event studies, backtests, and out-of-sample validation with guardrails against overfitting. Exports strategies for Freqtrade and Jesse. CLI, Python SDK, or MCP server.
+  - 💰 **Monetize:** Validated strategy licensing, edge-as-a-service, signal subscriptions, quant consulting
+
 ### Solana Trading
 
 - [**Solana Trading Bot**](https://github.com/warp-id/solana-trading-bot) ⭐ 2.3k - Beta Solana trading bot. Sniper, swap, and automated trading.
@@ -218,6 +221,9 @@ franklin  # launch the agent
 
 - [**solana-grpc-sniper-bot**](https://github.com/0xRustPro/solana-grpc-sniper-bundler-bot) ⭐ 11 - High-speed Solana sniper using gRPC for real-time transaction streaming.
   - 💰 **Monetize:** New token sniping, managed sniper service, speed advantage
+
+- [**pumpclaw**](https://github.com/chainstacklabs/pumpclaw) ⭐ 7 - Chainstack's agent skill for pump.fun trading via [pumpfun-cli](https://github.com/chainstacklabs/pumpfun-cli). Buy, sell, launch tokens, manage wallets — with dry-run safety, slippage validation, and PumpSwap AMM migration. Works with OpenClaw, Claude Code, Cursor, Codex.
+  - 💰 **Monetize:** Token trading profits, agent-driven launches, trading fee collection
 
 ---
 
@@ -725,6 +731,12 @@ Model Context Protocol (MCP) enables AI agents to connect to external tools and 
 
 - [**blockrun-mcp**](https://github.com/BlockRunAI/blockrun-mcp) ⭐ 393 - Live data for AI agents — search, research, markets, crypto, X/Twitter. Pay-per-call via x402 micropayments. Also available hosted at [`mcp.blockrun.ai`](https://github.com/BlockRunAI/blockrun-mcp-server) (zero install).
   - 💰 **Monetize:** Build paid data agents, package research workflows, charge per-report with USDC micropayments
+
+- [**The Stall**](https://github.com/thebrierfox/the-stall) ⭐ 7 - x402-native MCP server with 210 pay-per-call data tools: US/EU/JP equities, crypto/DeFi, options GEX, dealer gamma, congressional trades, GDELT news, weather history, sanctions screening. Hosted at [`the-stall.intuitek.ai/mcp`](https://the-stall.intuitek.ai/mcp), USDC on Base, no API keys.
+  - 💰 **Monetize:** Feed pay-per-call market data into Franklin, trading bots, or agent pipelines — pay per query instead of $500+/mo data subscriptions
+
+- [**Worklittle Jobs MCP**](https://github.com/worklittle/jobs-mcp) - Remote MCP over 4M+ job listings with visa, salary, and distance filters. Swipe to apply from your agent, save roles to a Worklittle account. Hosted at [`mcp.worklittle.com`](https://mcp.worklittle.com/).
+  - 💰 **Monetize:** Automated job-application agents, recruiting-as-a-service, candidate sourcing pipelines
 
 - [**MindsDB**](https://github.com/mindsdb/mindshub) ⭐ 39.7k - Federated Query Engine for AI. The only MCP Server you'll ever need for database access.
   - 💰 **Monetize:** Data pipeline services, enterprise AI data integration, managed MindsDB hosting
